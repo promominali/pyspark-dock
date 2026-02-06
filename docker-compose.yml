@@ -1,0 +1,12 @@
+services:
+  pyspark:
+    build: .
+    container_name: ali
+    ports:
+      - "8888:8888"
+      - "4040:4040"  # Spark UI
+    volumes:
+      - ./notebooks:/home/ali/work
+    environment:
+      - JUPYTER_TOKEN=ali
+    command: pyspark
