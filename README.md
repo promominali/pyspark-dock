@@ -1,5 +1,7 @@
 # PySpark Docker Environment
 
+[![GitHub](https://img.shields.io/badge/GitHub-promominali%2Fpyspark--dock-blue)](https://github.com/promominali/pyspark-dock)
+
 Optimized Docker setup for PySpark with Jupyter Lab.
 
 ## Quick Start
